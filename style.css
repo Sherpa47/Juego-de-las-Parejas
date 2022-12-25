@@ -124,13 +124,13 @@ body {
 }
 
 @keyframes dance {
-  0%, 100%  {
+  0%, 400%  {
     transform: rotate(0);
   }
-  25% {
+  200% {
     transform: rotate(-30deg);
   }
-  75% {
+  300% {
     transform: rotate(30deg);
   }
 }
