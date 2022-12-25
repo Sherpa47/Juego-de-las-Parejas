@@ -53,8 +53,8 @@ body {
 
 .card {
   position: relative;
-  height: 73px;
-  width: 60px;
+  height: 100px;
+  width: 70px;
 }
 
 .card:hover {
