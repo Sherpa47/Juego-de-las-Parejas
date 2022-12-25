@@ -27,7 +27,7 @@ body {
   font-family: Creepy, serif;
   font-weight: normal;
   text-align: center;
-  font-size: 6em;
+  font-size: 1.5em;
 }
 
 .game-info-container {
@@ -39,7 +39,7 @@ body {
 .game-info {
   font-family: Lunacy, serif;
   color: #FFBB89;
-  font-size: 4em;
+  font-size: 1em;
 }
 
 .game-container {
@@ -53,8 +53,8 @@ body {
 
 .card {
   position: relative;
-  height: 175px;
-  width: 125px;
+  height: 73px;
+  width: 60px;
 }
 
 .card:hover {
@@ -103,7 +103,7 @@ body {
 }
 
 .overlay-text-small {
-  font-size: .3em;
+  font-size: .1em;
 }
 
 .overlay-text.visible {
@@ -119,7 +119,7 @@ body {
   }
   to {
     background-color: rgba(0, 0, 0, .8);
-    font-size: 10em;
+    font-size: 1em;
   }
 }
 
@@ -148,23 +148,23 @@ body {
 
 .card-value {
   transition: transform 100ms ease-in-out;
-  transform: scale(.9);
+  transform: scale(0.4);
 }
 
 .card-front:hover .card-value {
-  transform: scale(1);
+  transform: scale(0.5);
 }
 
 .cob-web {
   position: absolute;
-  width: 47px;
-  height: 47px;
+  width: 15px;
+  height: 15px;
   transition: width 100ms ease-in-out, height 100ms ease-in-out;
 }
 
 .card-face:hover .cob-web {
-  width: 52px;
-  height: 52px;
+  width: 20px;
+  height: 20px;
 }
 
 .cob-web-top-left {
@@ -192,7 +192,7 @@ body {
 
 .spider {
   align-self: flex-start;
-  transform: translateY(-10px);
+  transform: translateY(-70px);
   transition: transform 100ms ease-in-out;
 }
 
@@ -200,7 +200,7 @@ body {
   transform: translateY(0)
 }
 
-@media (max-width: 600px) {
+@media (max-width: 100px) {
   .game-container {
     grid-template-columns: repeat(2, auto);
   }
@@ -242,7 +242,7 @@ body {
   text-decoration: none;
   margin-bottom: 10px;
   color: white;
-  width: 180px;
+  width: 8px;
   padding: 10px 0;
   border-radius: 10px;
 }
@@ -260,11 +260,11 @@ body {
 }
 
 .side-link-text {
-  margin-left: 10px;
-  font-size: 18px;
+  margin-left: 5px;
+  font-size: 8px;
 }
 
 .side-link-icon {
   color: white;
-  font-size: 30px;
+  font-size: 10px;
 }
